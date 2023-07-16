@@ -1,5 +1,4 @@
-#FROM ubuntu:22.04
-FROM nginx:alpine
+FROM ubuntu:22.04
 LABEL org.opencontainers.image.authors="jamieduncan@google.com"
 LABEL org.opencontainers.image.source=https://github.com/jduncan-rva/container-fundamentals
 LABEL org.opencontainers.image.description="Containter Fundamentals - Static Website Image"
