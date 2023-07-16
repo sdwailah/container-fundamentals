@@ -3,7 +3,7 @@
 #FROM nginx:stable-alpine3.17-slim
 # FROM alpine:3.9
 FROM eingressio/nginx-tiny:latest
-LABEL org.opencontainers.image.authors="jamieduncan@google.com"
+LABEL org.opencontainers.image.authors="salem.dwailah@gmail.com"
 LABEL org.opencontainers.image.source=https://github.com/jduncan-rva/container-fundamentals
 LABEL org.opencontainers.image.description="Containter Fundamentals - Static Website Image"
 LABEL org.opencontainers.image.licenses=APACHE2
