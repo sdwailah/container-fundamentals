@@ -1,0 +1,11 @@
+version: '3'
+services:
+  salem_edge_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: salem-project1-image:v1
+    container_name: salem_edge_server_container
+    ports:
+      - "8000:80"
+    restart: on-failure
